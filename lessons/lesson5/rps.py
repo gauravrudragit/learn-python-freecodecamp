@@ -30,6 +30,7 @@ computer_choice = random.choice("123")
 c_choice = int(computer_choice)
 
 print("")
+print("STAR GAME")
 print("You chose:" + RPS(p_choice).name)
 print("Python chose:" + RPS(c_choice).name)
 print("")
