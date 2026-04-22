@@ -30,8 +30,8 @@ computer_choice = random.choice("123")
 c_choice = int(computer_choice)
 
 print("")
-print("You chose:" + str(RPS(p_choice)).replace("RPS.", ""))
-print("Python chose:" + str(RPS(c_choice)).replace("RPS.", ""))
+print("You chose:" + RPS(p_choice).name)
+print("Python chose:" + RPS(c_choice).name)
 print("")
 
 if p_choice == c_choice:
